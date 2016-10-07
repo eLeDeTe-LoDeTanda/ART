@@ -32,7 +32,7 @@ ControlP5 cp5;
 
 PImage background;
 
-int time  = 1;
+int time;
 int frames;
 int H;
 int M;
@@ -47,14 +47,13 @@ int ah;
 int am;
 int as;
 
-int aniDuration = 1;
+int aniDuration;
 
 int offset_x= 25;
 int offset_y= 130;
 
 void setup() {
   size(323, 480);
-  //noLoop();
   noStroke();
 
   background = loadImage("background.png");
