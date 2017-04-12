@@ -9,6 +9,8 @@ Calculadora de tiempo de render aproximado.
 
 ![](https://github.com/eLeDeTe-LoDeTanda/ART/blob/master/Captura.png)
 
+## Descargas - Downloads
+
 **LINUX (Java inside)**
 
 
@@ -41,4 +43,5 @@ Calculadora de tiempo de render aproximado.
 
 **[Download jAVA 8](https://www.java.com/en/download/)**
 
+##
 ##
