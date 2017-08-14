@@ -35,4 +35,4 @@ Buscar en las propiedades de render el panel **"ART -Approx Render Time-"**
 
 ##
 
-**[Standalone](https://raw.githubusercontent.com/eLeDeTe-LoDeTanda/ART/)**
+**[Standalone](https://github.com/eLeDeTe-LoDeTanda/ART)**
