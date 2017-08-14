@@ -7,7 +7,7 @@ Calculadora de tiempo de render aproximado.
 
 ##
 
-standalone
+Standalone
 
 ![](https://github.com/eLeDeTe-LoDeTanda/ART/blob/master/Captura.png)
 
