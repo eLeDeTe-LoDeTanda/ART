@@ -7,9 +7,24 @@ Calculadora de tiempo de render aproximado.
 
 ##
 
+standalone
+
 ![](https://github.com/eLeDeTe-LoDeTanda/ART/blob/master/Captura.png)
 
+
+Blender Add-on
+
+![](https://github.com/eLeDeTe-LoDeTanda/ART/blob/master/BlenderAddon/ART_Blenderaddon.png)
+
+
 ## Descargas - Downloads
+
+
+**BLENDER (Add-On)**
+
+**[ARTv1.0_BlenderAddon](https://raw.githubusercontent.com/eLeDeTe-LoDeTanda/ART/master/BlenderAddon/art.py)**
+
+##
 
 **LINUX (Java inside)**
 
