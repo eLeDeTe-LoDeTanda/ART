@@ -33,9 +33,6 @@ class artPanel(Panel):
         
         ani_duration = scene.art.frames / scene.art.fps;
         
-        #if (scene.art.cpu > scene.art.frames):
-        #scene.art.cpu = scene.art.frames
-       
         time = ((scene.art.frames * (((scene.art.hours * 60) + scene.art.minutes) * 60 + scene.art.seconds)) / scene.art.cpu);
         
         s = time % 60
