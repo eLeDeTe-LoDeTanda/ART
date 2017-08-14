@@ -1,14 +1,13 @@
 import bpy
 from bpy.props import IntProperty, PointerProperty
 from bpy.types import PropertyGroup, Operator, Panel
-from bpy.utils import register_class, unregister_class
 
 bl_info = { 
     "name": "ART -Aproximate Render Time Calculator-",
     "author": "Marcelo 'Tanda' Cerviño",
     "version": (1, 0),
     "blender": (2, 78),
-    "location": "Render > ART -Aproximate Render Time Calculator-",
+    "location": "Render > ART -Aprox Render Time-",
     "description": "Aproximate Render Time Calculator",
     "warning": "",
     "wiki_url": "https://github.com/eLeDeTe-LoDeTanda/ART",
@@ -51,11 +50,11 @@ class artPanel(Panel):
         anih = anim / 60
         anim = anim % 60
         
-        layout.label(text="ANIMATION duration:")
+        layout.label(text="ANIMATION:")
         box = layout.box()
         box.label(text="{}h:  {}m:  {}s".format(int(anih), int(anim), int(anis)))
 
-        layout.label(text="Aprox RENDERS TIME:") 
+        layout.label(text="RENDER TIME:") 
         box = layout.box()
         box.label(text="{}d:  {}h:  {}m:  {}s".format(int(d), int(h), int(m), int(s))) 
 
@@ -70,7 +69,7 @@ class artPanel(Panel):
         
         row = col.row()
         
-        row.label("Duration:")
+        row.label("Frames and rate:")
         row = col.row(align=True)
         row.prop(scene.ART, "frames")
         row.prop(scene.ART, "fps")
