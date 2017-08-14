@@ -31,12 +31,12 @@ class artPanel(Panel):
         scene = context.scene
         layout = self.layout
         
-        ani_duration = scene.ART.frames / scene.ART.fps;
+        ani_duration = scene.art.frames / scene.art.fps;
         
-        #if (scene.ART.cpu > scene.ART.frames):
-        #scene.ART.cpu = scene.ART.frames
+        #if (scene.art.cpu > scene.art.frames):
+        #scene.art.cpu = scene.art.frames
        
-        time = ((scene.ART.frames * (((scene.ART.hours * 60) + scene.ART.minutes) * 60 + scene.ART.seconds)) / scene.ART.cpu);
+        time = ((scene.art.frames * (((scene.art.hours * 60) + scene.art.minutes) * 60 + scene.art.seconds)) / scene.art.cpu);
         
         s = time % 60
         m = time / 60
@@ -63,19 +63,19 @@ class artPanel(Panel):
         
         row.label("Time per frame:")
         row = col.row()
-        row.prop(scene.ART, "hours")
-        row.prop(scene.ART, "minutes")
-        row.prop(scene.ART, "seconds")
+        row.prop(scene.art, "hours")
+        row.prop(scene.art, "minutes")
+        row.prop(scene.art, "seconds")
         
         row = col.row()
         
         row.label("Frames and rate:")
         row = col.row(align=True)
-        row.prop(scene.ART, "frames")
-        row.prop(scene.ART, "fps")
+        row.prop(scene.art, "frames")
+        row.prop(scene.art, "fps")
         
         row = col.row(align=True)
-        row.prop(scene.ART, "cpu")
+        row.prop(scene.art, "cpu")
 
 
 class artProperty(PropertyGroup):
@@ -119,10 +119,10 @@ class artProperty(PropertyGroup):
         
 def register():
     bpy.utils.register_module(__name__)
-    bpy.types.Scene.ART = PointerProperty(type=artProperty)
+    bpy.types.Scene.art = PointerProperty(type=artProperty)
 
 def unregister():
-    del(bpy.types.Scene.ART)
+    del(bpy.types.Scene.art)
     bpy.utils.unregister_module(__name__)
 
 if __name__ == "__main__":
