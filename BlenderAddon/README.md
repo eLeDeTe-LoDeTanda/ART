@@ -32,3 +32,7 @@ Buscar en las propiedades de render el panel **"ART -Approx Render Time-"**
 **BLENDER (Add-On)**
 
 **[ARTv1.0_BlenderAddon](https://raw.githubusercontent.com/eLeDeTe-LoDeTanda/ART/master/BlenderAddon/art.py)**
+
+##
+
+**[Standalone](https://raw.githubusercontent.com/eLeDeTe-LoDeTanda/ART/)**
