@@ -168,7 +168,7 @@ void draw() {
   h = m / 60;
   m = m % 60;
   d = h / 24;
-  h = h - d * 24;
+  h = h % 24;
 
   as = aniDuration % 60;
   am = aniDuration/60;
