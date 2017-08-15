@@ -28,7 +28,7 @@ Probado en Blender 2.78 - 2.79
 * En Blender: **"File menu > User Preferences > Add-ons"**
 * Ir a la pestaña **"Add-ons"**. Seleccionar en **"Install from File"**, buscar el archivo **"art.py"**.
 * En la pestaña **"Add-ons > Render" activar "ART -Approximate Render Time Calculator-"**
-Buscar en las propiedades de render el panel **"ART -Approx Render Time-"**
+* Buscar en las propiedades de render el panel **"ART -Approx Render Time-"**
 
 ## Descarga - Download
 
