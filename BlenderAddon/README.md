@@ -9,6 +9,10 @@ Calculadora de tiempo de render aproximado.
 
 Blender Add-on
 
+Tested in Blender 2.78 - 2.79
+
+Probado en Blender 2.78 - 2.79
+
 ![](https://github.com/eLeDeTe-LoDeTanda/ART/blob/master/BlenderAddon/ART_Blenderaddon.png)
 
 
