@@ -70,11 +70,11 @@ class artPanel(Panel):
         anih = anim / 60
         anim = anim % 60
         
-        layout.label(text="ANIMATION:")
+        layout.label(text="Animation:")
         box = layout.box()
         box.label(text="{}h:  {}m:  {}s".format(int(anih), int(anim), int(anis)))
 
-        layout.label(text="RENDER TIME:") 
+        layout.label(text="Render time:") 
         box = layout.box()
         box.label(text="{}d:  {}h:  {}m:  {}s".format(int(d), int(h), int(m), int(s))) 
 
