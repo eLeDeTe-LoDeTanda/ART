@@ -120,7 +120,7 @@ class artProperty(PropertyGroup):
         name="Frames",
         min=1,
         max=9999999,
-        default=250
+        default=240
     )
     fps = IntProperty(
         name="fps",
